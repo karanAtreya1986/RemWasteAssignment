@@ -10,6 +10,7 @@ This project is an **UI test automation framework** built using **Javascript**, 
 | Allure Reports    | Allure HTML                            |
 | GitHub Actions    | CI/CD pipeline                         |
 | Node and NPM      | Download online                        |
+| Git               | Download online                        |
 
 
 This test suite validates the core UI functionality of the SauceDemo e-commerce web application. The focus is on end-to-end user flows such as:
@@ -45,6 +46,8 @@ npm install -g allure-commandline --save-dev
 ## Running Tests Locally
 
 ### Clone the repo in the required directory on your PC if you want to run locally:
+Open Gitbash or CMD.
+
 git clone https://github.com/karanAtreya1986/RemWasteAssignment.git
 
 cd path_of_the_folder_where_repo_cloned
@@ -55,7 +58,7 @@ npx playwright test
 To see the report once it ran:
 npx playwright show-report
 
-View the report in your browser. Reports are present in the path:
+View the report in your browser. Reports are present in the project in the following path:
 allure-report/index.html
 
 ## How to View GitHub Actions Reports
