@@ -9,6 +9,7 @@ This project is an **UI test automation framework** built using **Javascript**, 
 | Javascript        | Scripting language                     |
 | Allure Reports    | Allure HTML                            |
 | GitHub Actions    | CI/CD pipeline                         |
+| Node and NPM      | Download online                        |
 
 
 This test suite validates the core UI functionality of the SauceDemo e-commerce web application. The focus is on end-to-end user flows such as:
@@ -17,6 +18,13 @@ This test suite validates the core UI functionality of the SauceDemo e-commerce 
 ●	Product interactions (adding/removing items from the cart)
 
 ●	Cart operations (editing cart, continuing shopping)
+
+## Pre-requisite:
+Install node js. Download Node from internet.
+Check if installed using command line.
+Open CMD after installing: check if node and npm is installed:
+node --version
+npm --version
 
 ## Install Playwright
 npm init playwright@latest
