@@ -26,7 +26,7 @@ jobs:
       run: npx playwright test
 
     - name: Install Allure CLI
-        run: npm install -g allure-commandline --save-dev
+        run: npm install -g allure-commandline
 
     - name: Generate Allure report (always runs)
         run: |
