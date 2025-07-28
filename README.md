@@ -47,7 +47,7 @@ npm install -g allure-commandline --save-dev
 ### Clone the repo in the required directory on your PC if you want to run locally:
 git clone https://github.com/karanAtreya1986/RemWasteAssignment.git
 
-cd BookStoreAPITesting
+cd <to the folder where the repo is cloned>
 
 Run test using Command Line:
 npx playwright test
