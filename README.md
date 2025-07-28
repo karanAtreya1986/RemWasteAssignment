@@ -27,6 +27,9 @@ Open CMD after installing: check if node and npm is installed:
 node --version
 npm --version
 
+## Install Git
+Download online.
+
 ## Install Playwright
 npm init playwright@latest
 
